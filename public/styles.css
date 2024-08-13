@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.chat-container {
+    width: 400px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    background-color: #f9f9f9;
+}
+
+.chat-history {
+    flex: 1;
+    overflow-y: auto;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+
+input[type="text"] {
+    width: calc(100% - 70px);
+}
+
+button {
+    width: 60px;
+}
